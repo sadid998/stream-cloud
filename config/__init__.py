@@ -1,9 +1,9 @@
 import os
 
 class Config:
-    API_ID = int( os.getenv("api_id","1234") )
-    API_HASH = os.getenv("api_hash","21ab7cb0a453b5e60016dc7bbeb71cb")
-    CHANNEL = int( os.getenv("channel_files_chat_id","-1001601419165") )
-    CHANNEL_USERNAME = os.getenv("channel_username","UserLandapp")
-    TOKEN = os.getenv("token","1408542385:AAEatXPbSubsYmlW8kPTUAr")
-    DOMAIN  = os.getenv("domain","http://localhost")
+    API_ID = int( os.getenv("api_id","1544329") )
+    API_HASH = os.getenv("api_hash","e8c801b5516409dcf1549382cb350661")
+    CHANNEL = int( os.getenv("channel_files_chat_id","-1001512858979") )
+    CHANNEL_USERNAME = os.getenv("channel_username","Cinema_Great")
+    TOKEN = os.getenv("token","1800448220:AAEUvwqFQVMKCnpL1EAkc1d1vunlOcSARRA")
+    DOMAIN  = os.getenv("domain","https://cinemagreat.ml")
